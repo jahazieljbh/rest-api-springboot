@@ -1,2 +1,2 @@
 # rest-api-springboot
-branch master
+branch release
