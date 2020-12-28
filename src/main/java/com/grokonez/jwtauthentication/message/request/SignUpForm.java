@@ -18,7 +18,7 @@ public class SignUpForm {
     @Email
     private String email;
     
-    private Set<String> role;
+    private Set role;
     
     @NotBlank
     @Size(min = 6, max = 40)
@@ -56,11 +56,11 @@ public class SignUpForm {
         this.password = password;
     }
     
-    public Set<String> getRole() {
-    	return this.role;
+    public Set getRole() {
+      return this.role;
     }
     
-    public void setRole(Set<String> role) {
-    	this.role = role;
+    public void setRole(Set role) {
+      this.role = role;
     }
 }
